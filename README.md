@@ -1,76 +1,73 @@
 # 🤖 AI Personal Tech Shopper
 
-An AI-powered technology shopping assistant that helps customers discover, compare, negotiate, and purchase technology products according to their requirements and budget.
+An agentic AI-powered technology shopping assistant that helps customers discover, compare, negotiate, and purchase technology products based on their budget, requirements, and preferences.
 
 ---
 
 ## 📌 Project Overview
 
-AI Personal Tech Shopper is an agentic AI-powered shopping assistant designed to help customers find suitable technology products according to their budget, requirements, and preferences.
+AI Personal Tech Shopper is an intelligent shopping assistant designed to simplify the technology buying process.
 
-The system understands customer requests, identifies customer intent, searches the product catalog, evaluates products, recommends suitable products, supports price negotiation, manages the shopping cart, and provides a checkout experience.
+The system understands customer requirements, identifies customer intent, searches the product catalog, evaluates products, recommends suitable products, supports product comparison and price negotiation, manages the shopping cart, and provides a checkout experience.
 
 ---
 
-## 🎯 Main Objective
+## 🎯 Project Objective
 
-The main objective of this project is to create an intelligent shopping assistant that can:
+The main objective of this project is to build an intelligent AI-powered technology shopping assistant that can understand a customer's needs and assist them throughout the shopping journey.
+
+The system is designed to:
 
 - Understand customer requirements
 - Identify customer intent
 - Search available technology products
-- Compare products
+- Evaluate products based on customer needs
 - Recommend suitable products
-- Explain recommendations
-- Negotiate product prices
-- Apply discounts
-- Add products to cart
-- Manage cart items
-- Calculate final prices
-- Support checkout
+- Compare different products
+- Explain product recommendations
+- Support price negotiation
+- Apply available discounts and offers
+- Add products to the shopping cart
+- Manage cart items and quantities
+- Calculate discounts and final prices
+- Maintain the shopping conversation
+- Track important shopping activities
 
 ---
 
 ## 🚀 Main Features
 
-### 1. 🧠 Customer Understanding
+### 1. 👤 Customer Understanding
 
 The system understands customer requirements such as:
 
 - Budget
 - Product category
 - Intended usage
-- Technical requirements
-- Customer preferences
+- Performance requirements
+- Product preferences
 
 ### 2. 🔎 Product Discovery
 
-The shopping assistant searches the available product catalog based on the customer's requirements.
-
-It considers:
-
-- Product category
-- Price
-- Budget
-- Specifications
-- Availability
-- Requirement matching
+The shopping assistant searches the available product catalog and identifies products matching the customer's requirements.
 
 ### 3. 🤖 AI Product Recommendation
 
-The system evaluates products and recommends suitable options based on:
+The recommendation system evaluates products using factors such as:
 
-- Customer budget
 - Product price
+- Customer budget
 - Customer requirements
-- Product match score
+- Product match
 - Product availability
+
+The assistant recommends products that are suitable for the customer's needs.
 
 ### 4. 🧠 Agentic Decision Making
 
-The shopping process follows:
+The system follows an agentic shopping workflow:
 
-Customer Goal → Intent Detection → Product Search → Product Evaluation → Recommendation → Customer Decision → Shopping Action
+**Customer Goal → Intent Detection → Product Search → Product Evaluation → Decision → Action**
 
 ### 5. ⚖️ Product Comparison
 
@@ -79,9 +76,8 @@ Customers can compare products based on:
 - Price
 - Specifications
 - Features
-- Performance
 - Suitability
-- Value
+- Customer requirements
 
 ### 6. 💰 Price Negotiation
 
@@ -91,27 +87,30 @@ The system supports:
 
 - Discount requests
 - Target price requests
+- Negotiation messages
 - Offer evaluation
-- Available discounts
-- Final negotiated pricing
 
-### 7. 🛒 Shopping Cart
+### 7. 🎁 Offers & Discounts
+
+The system supports product offers and discounts and reflects applicable discounts in the shopping total.
+
+### 8. 🛒 Shopping Cart
 
 Customers can:
 
 - Add products
-- Select quantity
+- Select quantities
 - Remove products
+- View cart items
 - View subtotal
 - View discounts
-- View cart total
-- Calculate final price
+- View final total
 
-### 8. 💬 Conversation Management
+### 9. 💬 Conversation Management
 
-The system maintains the shopping conversation so customers can continue interacting with the assistant during their shopping journey.
+The system maintains the shopping conversation so customers can continue interacting with the assistant throughout their shopping journey.
 
-### 9. 📊 Analytics
+### 10. 📊 Analytics
 
 The system records important shopping activities such as:
 
@@ -119,27 +118,26 @@ The system records important shopping activities such as:
 - Product views
 - Cart actions
 - Negotiations
-- Shopping activities
+- Shopping interactions
 
-### 10. 💳 Checkout
+### 11. 💳 Checkout
 
-The application provides a demonstration checkout experience.
-
-Customers can enter:
+The checkout interface supports:
 
 - Full Name
 - Delivery Address
 - Phone Number
-- Payment Method
-- UPI ID when applicable
-
-Available payment methods include:
-
 - UPI
 - Credit / Debit Card
 - Cash on Delivery
 
-> The checkout is a project demonstration and does not process real payments.
+The checkout is a demonstration and does not process real payments.
+
+---
+
+## 🔄 Shopping Workflow
+
+Customer Request → Requirement Understanding → Intent Detection → Product Search → Product Evaluation → Recommendation → Comparison → Negotiation → Cart → Checkout
 
 ---
 
@@ -148,8 +146,8 @@ Available payment methods include:
 - Python
 - Streamlit
 - Agent-based architecture
-- Session State
 - Python modules
+- Session State
 - Product catalog
 - Data processing
 - Git
@@ -158,6 +156,8 @@ Available payment methods include:
 ---
 
 ## 📂 Project Structure
+
+The project is organized into application modules, shopping components, agent components, and test files.
 
 ```text
 AI-Tech-Shopper/
@@ -180,6 +180,7 @@ AI-Tech-Shopper/
 ├── conversation_manager.py
 ├── customer.py
 ├── intent_engine.py
+├── main.py
 ├── memory.py
 ├── merchant_analytics.py
 ├── merchant_dashboard.py
@@ -208,12 +209,11 @@ AI-Tech-Shopper/
 ├── test_search.py
 ├── test_tools.py
 │
-├── 1st.png
-├── 2nd.png
-├── 3rd.png
-├── 4th.png
-├── 5th.png
-├── 6th.png
-│
 ├── .gitignore
 └── README.md
+<img width="1917" height="735" alt="6th" src="https://github.com/user-attachments/assets/05cebfe6-ad51-4702-83be-dd66878304dc" />
+<img width="1917" height="1135" alt="5th" src="https://github.com/user-attachments/assets/4e907ddc-95fc-464b-8954-5a26ae437ce9" />
+<img width="1917" height="1062" alt="4th" src="https://github.com/user-attachments/assets/0e9e4975-d19c-4ebd-8436-30ff6bac8aba" />
+<img width="1917" height="1057" alt="3rd" src="https://github.com/user-attachments/assets/d176e6bd-d284-4d66-b32c-eb6f95531c3e" />
+<img width="1917" height="1062" alt="2nd" src="https://github.com/user-attachments/assets/81ecf8ea-d9e4-4aef-aafd-c706e146d573" />
+<img width="1912" height="1175" alt="1st" src="https://github.com/user-attachments/assets/1e6ba7c1-e415-4faf-a7f7-5a618d2487ef" />
