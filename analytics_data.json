@@ -151,6 +151,14 @@
         {
             "product": "ApexBook Pro 15",
             "timestamp": "2026-08-25 14:55:53"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 15:43:42"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 15:43:42"
         }
     ],
     "cart_events": [
@@ -455,6 +463,14 @@
         {
             "product": "ApexBook Pro 15",
             "timestamp": "2026-08-25 14:55:53"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 15:43:42"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 15:43:42"
         }
     ]
 }
