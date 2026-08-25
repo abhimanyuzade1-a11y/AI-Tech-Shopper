@@ -211,6 +211,7 @@ AI-Tech-Shopper/
 │
 ├── .gitignore
 └── README.md
+ ``` 
 <img width="1917" height="735" alt="6th" src="https://github.com/user-attachments/assets/05cebfe6-ad51-4702-83be-dd66878304dc" />
 <img width="1917" height="1135" alt="5th" src="https://github.com/user-attachments/assets/4e907ddc-95fc-464b-8954-5a26ae437ce9" />
 <img width="1917" height="1062" alt="4th" src="https://github.com/user-attachments/assets/0e9e4975-d19c-4ebd-8436-30ff6bac8aba" />
