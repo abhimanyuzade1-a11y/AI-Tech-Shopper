@@ -1,120 +1,147 @@
 # 🤖 AI Personal Tech Shopper
 
-An AI-powered technology shopping assistant built with Python and Streamlit.
-
-The AI Personal Tech Shopper helps customers find suitable technology products based on their budget, requirements, and preferences. It supports product discovery, recommendations, price negotiation, discounts, shopping cart management, and checkout.
+An AI-powered technology shopping assistant that helps customers discover, compare, negotiate, and purchase technology products according to their requirements and budget.
 
 ---
 
 ## 📌 Project Overview
 
-The system works as an intelligent shopping assistant that can understand customer requests and guide them through the shopping process.
+AI Personal Tech Shopper is an agentic AI-powered shopping assistant designed to help customers find suitable technology products according to their budget, requirements, and preferences.
 
-### Shopping Flow
-
-Customer Request  
-↓  
-Intent Detection  
-↓  
-Product Search  
-↓  
-Product Evaluation  
-↓  
-Recommendation  
-↓  
-Price Negotiation  
-↓  
-Discount  
-↓  
-Add to Cart  
-↓  
-Checkout
+The system understands customer requests, identifies customer intent, searches the product catalog, evaluates products, recommends suitable products, supports price negotiation, manages the shopping cart, and provides a checkout experience.
 
 ---
 
-## ✨ Features
+## 🎯 Project Objective
 
-### 🔎 Product Discovery
+The main objective of this project is to build an intelligent technology shopping assistant that can understand a customer's requirements and guide them through the complete shopping journey.
 
-Customers can search for technology products according to their needs, including:
+The system is designed to:
 
-- Laptops
-- Smartphones
-- Audio products
-- Gaming accessories
-- Chargers
-- Laptop bags
+- Understand customer requirements
+- Identify customer intent
+- Search available technology products
+- Compare products
+- Recommend suitable products
+- Explain recommendations
+- Support price negotiation
+- Apply available discounts
+- Add products to the shopping cart
+- Manage cart items and quantities
+- Calculate discounts and final prices
+- Provide a checkout experience
+- Track important shopping activities
 
-### 🤖 AI Recommendations
+---
 
-The system evaluates products using factors such as:
+## 🚀 Main Features
 
-- Customer budget
+### 1. 🧑 Customer Understanding
+
+The system understands customer requirements such as:
+
+- Budget
 - Product category
 - Intended usage
-- Product specifications
-- Rating
+- Performance requirements
+- Customer preferences
+
+### 2. 🔎 Product Discovery
+
+The shopping assistant searches the available product catalog based on the customer's requirements.
+
+It considers factors such as:
+
+- Product category
+- Price
+- Budget
+- Specifications
 - Availability
+- Requirement matching
 
-### 💰 Price Negotiation
+### 3. 🤖 AI Product Recommendation
 
-Customers can interact with the shopping assistant to request:
+The system evaluates available products and recommends suitable options.
 
-- A discount
-- A target price
+Recommendations consider:
 
-The system evaluates the request and provides an available offer when applicable.
+- Customer budget
+- Product price
+- Customer requirements
+- Product match score
+- Product availability
 
-### 🛒 Shopping Cart
+### 4. 🧠 Agentic Decision Making
 
-Customers can:
+The system follows an agentic workflow:
 
-- Add products to the cart
-- Select quantities
-- Remove products
-- View subtotal
-- View discounts
-- View final total
+Customer Goal → Intent Detection → Requirement Understanding → Product Search → Product Evaluation → Recommendation → Customer Decision → Shopping Action
 
-### 💳 Checkout
+### 5. 💰 Price Negotiation
 
-The application provides a checkout interface where customers can enter:
+Customers can request a better price for products.
+
+The system supports:
+
+- Discount requests
+- Target price requests
+- Offer evaluation
+- Available discounts
+- Final negotiated pricing
+
+### 6. 🛒 Shopping Cart
+
+Customers can manage their shopping cart by:
+
+- Adding products
+- Selecting quantity
+- Removing products
+- Viewing unit prices
+- Viewing discounts
+- Viewing cart totals
+- Calculating final prices
+
+### 7. 💳 Checkout
+
+The application provides a demonstration checkout flow.
+
+Customers can enter:
 
 - Full name
 - Delivery address
 - Phone number
+- Payment method
+- UPI ID when applicable
 
-Available payment methods include:
+The checkout is a project demonstration and does not process real payments.
 
-- UPI
-- Credit / Debit Card
-- Cash on Delivery
+### 8. 💬 Conversation Management
 
-### 💬 Conversational Shopping
+The system maintains the shopping conversation so that customers can continue interacting with the assistant during their shopping journey.
 
-Customers can interact with the assistant throughout the shopping process instead of using only traditional product filters.
+### 9. 📊 Analytics
 
-### 📊 Analytics
+The system records important shopping activities such as:
 
-The application records shopping activities such as:
-
+- Product recommendations
 - Product views
-- Recommendations
 - Cart actions
 - Negotiations
+- Shopping activities
 
 ---
 
-## 🖥️ Technology Stack
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
-- Python modules
-- Session State
 - Agent-based architecture
+- Session State
+- Python modules
 - Product catalog
-- Shopping cart management
-- Analytics
+- Data processing
+- Git
+- GitHub
 
 ---
 
@@ -129,15 +156,22 @@ AI-Tech-Shopper/
 ├── agent_planner.py
 ├── ai_brain.py
 ├── analytics.py
+├── analytics_data.json
+├── bundle.py
+├── cart.py
 ├── cart_manager.py
 ├── cart_recovery.py
 ├── chat_agent.py
 ├── checkout.py
+├── compare.py
 ├── comparison.py
 ├── conversation_manager.py
 ├── customer.py
 ├── intent_engine.py
 ├── memory.py
+├── merchant_analytics.py
+├── merchant_dashboard.py
+├── merchant_rules.py
 ├── negotiation.py
 ├── offers.py
 ├── product_details.py
@@ -146,32 +180,15 @@ AI-Tech-Shopper/
 ├── shopper.py
 ├── smart_recommendation.py
 ├── tools.py
-├── tests
+│
+├── tests/
+│
+├── 1st.png
+├── 2nd.png
+├── 3rd.png
+├── 4th.png
+├── 5th.png
+├── 6th.png
+│
+├── .gitignore
 └── README.md
----
-
-## 📸 Application Screenshots
-
-### 🏠 Main Shopping Interface
-
-![Main Shopping Interface](./1st.png)
-
-### 🔎 Product Discovery
-
-![Product Discovery](./2nd.png)
-
-### 🤖 AI Shopping Assistant
-
-![AI Shopping Assistant](./3rd.png)
-
-### 🛒 Shopping Cart
-
-![Shopping Cart](./4th.png)
-
-### 💰 Discount & Pricing
-
-![Discount & Pricing](./5th.png)
-
-### 💳 Checkout
-
-![Checkout](./6th.png)
