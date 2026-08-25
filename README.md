@@ -148,3 +148,30 @@ AI-Tech-Shopper/
 ├── tools.py
 ├── tests
 └── README.md
+---
+
+## 📸 Application Screenshots
+
+### 🏠 Main Shopping Interface
+
+![Main Shopping Interface](./1st.png)
+
+### 🔎 Product Discovery
+
+![Product Discovery](./2nd.png)
+
+### 🤖 AI Shopping Assistant
+
+![AI Shopping Assistant](./3rd.png)
+
+### 🛒 Shopping Cart
+
+![Shopping Cart](./4th.png)
+
+### 💰 Discount & Pricing
+
+![Discount & Pricing](./5th.png)
+
+### 💳 Checkout
+
+![Checkout](./6th.png)
