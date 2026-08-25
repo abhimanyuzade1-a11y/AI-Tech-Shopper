@@ -155,9 +155,21 @@ Customer Request → Requirement Understanding → Intent Detection → Product 
 
 ---
 
+ 
+## 📸 Application Screenshots
+<img width="1917" height="735" alt="6th" src="https://github.com/user-attachments/assets/60d4da9a-8f26-42be-bbe3-6c3dfa4a1b68" />
+<img width="1917" height="1135" alt="5th" src="https://github.com/user-attachments/assets/657532c1-437a-46aa-bd87-f98a33d9053d" />
+<img width="1917" height="1062" alt="4th" src="https://github.com/user-attachments/assets/fd078c73-8927-41d2-939c-b5bb6b1eef12" />
+<img width="1917" height="1057" alt="3rd" src="https://github.com/user-attachments/assets/8d3edcd4-6e6b-4ec6-a8b4-35d7a3f35b3d" />
+<img width="1917" height="1062" alt="2nd" src="https://github.com/user-attachments/assets/5b856349-ff10-4022-85a4-260fadcc5606" />
+<img width="1912" height="1175" alt="1st" src="https://github.com/user-attachments/assets/e429e6c5-f344-4620-8690-20eae65e51a5" />
+
+---
+
 ## 📂 Project Structure
 
 The project is organized into application modules, shopping components, agent components, and test files.
+
 
 ```text
 AI-Tech-Shopper/
@@ -211,11 +223,3 @@ AI-Tech-Shopper/
 │
 ├── .gitignore
 └── README.md
- ```
-## 📸 Application Screenshots
-<img width="1917" height="735" alt="6th" src="https://github.com/user-attachments/assets/60d4da9a-8f26-42be-bbe3-6c3dfa4a1b68" />
-<img width="1917" height="1135" alt="5th" src="https://github.com/user-attachments/assets/657532c1-437a-46aa-bd87-f98a33d9053d" />
-<img width="1917" height="1062" alt="4th" src="https://github.com/user-attachments/assets/fd078c73-8927-41d2-939c-b5bb6b1eef12" />
-<img width="1917" height="1057" alt="3rd" src="https://github.com/user-attachments/assets/8d3edcd4-6e6b-4ec6-a8b4-35d7a3f35b3d" />
-<img width="1917" height="1062" alt="2nd" src="https://github.com/user-attachments/assets/5b856349-ff10-4022-85a4-260fadcc5606" />
-<img width="1912" height="1175" alt="1st" src="https://github.com/user-attachments/assets/e429e6c5-f344-4620-8690-20eae65e51a5" />
