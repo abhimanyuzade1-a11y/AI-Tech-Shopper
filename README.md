@@ -12,11 +12,9 @@ The system understands customer requests, identifies customer intent, searches t
 
 ---
 
-## 🎯 Project Objective
+## 🎯 Main Objective
 
-The main objective of this project is to build an intelligent technology shopping assistant that can understand a customer's requirements and guide them through the complete shopping journey.
-
-The system is designed to:
+The main objective of this project is to create an intelligent shopping assistant that can:
 
 - Understand customer requirements
 - Identify customer intent
@@ -24,33 +22,32 @@ The system is designed to:
 - Compare products
 - Recommend suitable products
 - Explain recommendations
-- Support price negotiation
-- Apply available discounts
-- Add products to the shopping cart
-- Manage cart items and quantities
-- Calculate discounts and final prices
-- Provide a checkout experience
-- Track important shopping activities
+- Negotiate product prices
+- Apply discounts
+- Add products to cart
+- Manage cart items
+- Calculate final prices
+- Support checkout
 
 ---
 
 ## 🚀 Main Features
 
-### 1. 🧑 Customer Understanding
+### 1. 🧠 Customer Understanding
 
 The system understands customer requirements such as:
 
 - Budget
 - Product category
 - Intended usage
-- Performance requirements
+- Technical requirements
 - Customer preferences
 
 ### 2. 🔎 Product Discovery
 
 The shopping assistant searches the available product catalog based on the customer's requirements.
 
-It considers factors such as:
+It considers:
 
 - Product category
 - Price
@@ -61,9 +58,7 @@ It considers factors such as:
 
 ### 3. 🤖 AI Product Recommendation
 
-The system evaluates available products and recommends suitable options.
-
-Recommendations consider:
+The system evaluates products and recommends suitable options based on:
 
 - Customer budget
 - Product price
@@ -73,13 +68,24 @@ Recommendations consider:
 
 ### 4. 🧠 Agentic Decision Making
 
-The system follows an agentic workflow:
+The shopping process follows:
 
-Customer Goal → Intent Detection → Requirement Understanding → Product Search → Product Evaluation → Recommendation → Customer Decision → Shopping Action
+Customer Goal → Intent Detection → Product Search → Product Evaluation → Recommendation → Customer Decision → Shopping Action
 
-### 5. 💰 Price Negotiation
+### 5. ⚖️ Product Comparison
 
-Customers can request a better price for products.
+Customers can compare products based on:
+
+- Price
+- Specifications
+- Features
+- Performance
+- Suitability
+- Value
+
+### 6. 💰 Price Negotiation
+
+Customers can request a better price.
 
 The system supports:
 
@@ -89,35 +95,21 @@ The system supports:
 - Available discounts
 - Final negotiated pricing
 
-### 6. 🛒 Shopping Cart
+### 7. 🛒 Shopping Cart
 
-Customers can manage their shopping cart by:
+Customers can:
 
-- Adding products
-- Selecting quantity
-- Removing products
-- Viewing unit prices
-- Viewing discounts
-- Viewing cart totals
-- Calculating final prices
-
-### 7. 💳 Checkout
-
-The application provides a demonstration checkout flow.
-
-Customers can enter:
-
-- Full name
-- Delivery address
-- Phone number
-- Payment method
-- UPI ID when applicable
-
-The checkout is a project demonstration and does not process real payments.
+- Add products
+- Select quantity
+- Remove products
+- View subtotal
+- View discounts
+- View cart total
+- Calculate final price
 
 ### 8. 💬 Conversation Management
 
-The system maintains the shopping conversation so that customers can continue interacting with the assistant during their shopping journey.
+The system maintains the shopping conversation so customers can continue interacting with the assistant during their shopping journey.
 
 ### 9. 📊 Analytics
 
@@ -128,6 +120,26 @@ The system records important shopping activities such as:
 - Cart actions
 - Negotiations
 - Shopping activities
+
+### 10. 💳 Checkout
+
+The application provides a demonstration checkout experience.
+
+Customers can enter:
+
+- Full Name
+- Delivery Address
+- Phone Number
+- Payment Method
+- UPI ID when applicable
+
+Available payment methods include:
+
+- UPI
+- Credit / Debit Card
+- Cash on Delivery
+
+> The checkout is a project demonstration and does not process real payments.
 
 ---
 
@@ -181,7 +193,20 @@ AI-Tech-Shopper/
 ├── smart_recommendation.py
 ├── tools.py
 │
-├── tests/
+├── test_agent_brain.py
+├── test_agent_offers.py
+├── test_cart.py
+├── test_cart_recovery_agent.py
+├── test_catalog.py
+├── test_checkout.py
+├── test_commerce_flow.py
+├── test_comparison.py
+├── test_memory.py
+├── test_negotiation_agent.py
+├── test_offers.py
+├── test_planner.py
+├── test_search.py
+├── test_tools.py
 │
 ├── 1st.png
 ├── 2nd.png
