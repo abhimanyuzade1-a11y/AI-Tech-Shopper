@@ -1,0 +1,460 @@
+{
+    "orders": [
+        {
+            "order_id": 1,
+            "items": [
+                {
+                    "name": "ApexBook Pro 15",
+                    "quantity": 1
+                },
+                {
+                    "name": "HyperMouse G1",
+                    "quantity": 1
+                }
+            ],
+            "total": 74298,
+            "discount": 3200,
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "order_id": 2,
+            "items": [
+                {
+                    "name": "Titan Gaming 16",
+                    "quantity": 1
+                }
+            ],
+            "total": 79999,
+            "discount": 0,
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "order_id": 3,
+            "items": [
+                {
+                    "name": "Titan Gaming 16",
+                    "price": 79999,
+                    "quantity": 1,
+                    "discount": 5000
+                }
+            ],
+            "total": 74999,
+            "discount": 5000,
+            "timestamp": "2026-08-25 14:56:42"
+        }
+    ],
+    "recommendations": [
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:21:11"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:21:27"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:22:21"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:28:50"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:30:51"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:31:45"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:36:44"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:41:05"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:22:22"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 13:22:22"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:46:08"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 13:46:08"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:03:31"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:03:31"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:17:09"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:17:09"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:27:42"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:27:42"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:47:16"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:47:16"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:51:54"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:51:54"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:55:53"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:55:53"
+        }
+    ],
+    "cart_events": [
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "event": "ADD",
+            "product": "HyperMouse G1",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:28:56"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:31:16"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:32:54"
+        },
+        {
+            "event": "REMOVE",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:33:20"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:38:45"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:41:36"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:22:59"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:47:45"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:17:50"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:28:08"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:28:22"
+        },
+        {
+            "event": "ADD",
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:47:40"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:52:26"
+        },
+        {
+            "event": "ADD",
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:56:02"
+        }
+    ],
+    "negotiations": [
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 3000,
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:28:59"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:31:17"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:31:54"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:33:00"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:37:40"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:38:19"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 2000,
+            "timestamp": "2026-08-24 19:42:04"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 13:22:47"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 13:22:51"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 13:22:56"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 13:47:33"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 13:47:38"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 14:17:34"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 14:27:58"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 14:28:01"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 3749,
+            "timestamp": "2026-08-25 14:47:32"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "discount": 5000,
+            "timestamp": "2026-08-25 14:47:35"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 14:52:21"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 14:52:23"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 3999,
+            "timestamp": "2026-08-25 14:55:56"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "discount": 5000,
+            "timestamp": "2026-08-25 14:55:58"
+        }
+    ],
+    "product_views": [
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "ZenBook Creator 15",
+            "timestamp": "2026-08-24 19:15:52"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:21:11"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:21:27"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:22:21"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:28:50"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:30:51"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:31:45"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:36:44"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-24 19:41:05"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:22:22"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 13:22:22"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 13:46:08"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 13:46:08"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:03:31"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:03:31"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:17:09"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:17:09"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:27:42"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:27:42"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:47:16"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:47:16"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:51:54"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:51:54"
+        },
+        {
+            "product": "Titan Gaming 16",
+            "timestamp": "2026-08-25 14:55:53"
+        },
+        {
+            "product": "ApexBook Pro 15",
+            "timestamp": "2026-08-25 14:55:53"
+        }
+    ]
+}
