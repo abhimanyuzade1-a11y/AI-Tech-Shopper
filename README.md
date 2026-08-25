@@ -1,101 +1,120 @@
 # 🤖 AI Personal Tech Shopper
 
+An AI-powered technology shopping assistant built with Python and Streamlit.
+
+The AI Personal Tech Shopper helps customers find suitable technology products based on their budget, requirements, and preferences. It supports product discovery, recommendations, price negotiation, discounts, shopping cart management, and checkout.
+
+---
+
 ## 📌 Project Overview
 
-AI Personal Tech Shopper is an agentic AI-powered shopping assistant designed to help customers find suitable technology products according to their budget, requirements, and preferences.
+The system works as an intelligent shopping assistant that can understand customer requests and guide them through the shopping process.
 
-The system understands customer requests, searches the product catalog, evaluates products, recommends suitable products, supports price negotiation, and manages the shopping cart.
+### Shopping Flow
+
+Customer Request  
+↓  
+Intent Detection  
+↓  
+Product Search  
+↓  
+Product Evaluation  
+↓  
+Recommendation  
+↓  
+Price Negotiation  
+↓  
+Discount  
+↓  
+Add to Cart  
+↓  
+Checkout
 
 ---
 
-## 🎯 Main Objective
+## ✨ Features
 
-The main objective of this project is to create an intelligent shopping assistant that can:
+### 🔎 Product Discovery
 
-- Understand customer requirements
-- Identify customer intent
-- Search available products
-- Compare products
-- Recommend suitable products
-- Explain recommendations
-- Negotiate product prices
-- Apply discounts
-- Add products to cart
-- Manage cart items
-- Calculate final prices
+Customers can search for technology products according to their needs, including:
 
----
+- Laptops
+- Smartphones
+- Audio products
+- Gaming accessories
+- Chargers
+- Laptop bags
 
-## 🚀 Main Features
+### 🤖 AI Recommendations
 
-### 1. Customer Understanding
-The system understands customer requirements such as:
+The system evaluates products using factors such as:
 
-- Budget
-- Product category
-- Usage requirements
-- Preferences
-
-### 2. AI Product Recommendation
-
-The agent evaluates products based on:
-
-- Price
 - Customer budget
-- Requirements
-- Product match score
+- Product category
+- Intended usage
+- Product specifications
+- Rating
 - Availability
 
-### 3. Agentic Decision Making
+### 💰 Price Negotiation
 
-The system follows an agentic workflow:
+Customers can interact with the shopping assistant to request:
 
-Customer Goal → Intent Detection → Product Search → Product Evaluation → Decision → Action
+- A discount
+- A target price
 
-### 4. Price Negotiation
+The system evaluates the request and provides an available offer when applicable.
 
-Customers can request a better price using:
-
-- Discount messages
-- Target price requests
-
-The system evaluates the request and returns an available offer.
-
-### 5. Shopping Cart
+### 🛒 Shopping Cart
 
 Customers can:
 
-- Add products
-- Select quantity
+- Add products to the cart
+- Select quantities
 - Remove products
 - View subtotal
-- View discount
+- View discounts
 - View final total
 
-### 6. Conversation
+### 💳 Checkout
 
-The system maintains the shopping conversation so that the customer can continue interacting with the assistant.
+The application provides a checkout interface where customers can enter:
 
-### 7. Analytics
+- Full name
+- Delivery address
+- Phone number
 
-The system records important shopping activities such as:
+Available payment methods include:
 
-- Product recommendations
+- UPI
+- Credit / Debit Card
+- Cash on Delivery
+
+### 💬 Conversational Shopping
+
+Customers can interact with the assistant throughout the shopping process instead of using only traditional product filters.
+
+### 📊 Analytics
+
+The application records shopping activities such as:
+
 - Product views
+- Recommendations
 - Cart actions
 - Negotiations
 
 ---
 
-## 🛠️ Technologies Used
+## 🖥️ Technology Stack
 
 - Python
 - Streamlit
+- Python modules
+- Session State
 - Agent-based architecture
 - Product catalog
-- Session state
-- Python modules
-- Data processing
+- Shopping cart management
+- Analytics
 
 ---
 
@@ -105,11 +124,27 @@ The system records important shopping activities such as:
 AI-Tech-Shopper/
 │
 ├── app.py
+├── agent.py
 ├── agent_brain.py
-├── customer.py
-├── recommendation.py
-├── intent_engine.py
-├── conversation_manager.py
-├── cart_manager.py
+├── agent_planner.py
+├── ai_brain.py
 ├── analytics.py
+├── cart_manager.py
+├── cart_recovery.py
+├── chat_agent.py
+├── checkout.py
+├── comparison.py
+├── conversation_manager.py
+├── customer.py
+├── intent_engine.py
+├── memory.py
+├── negotiation.py
+├── offers.py
+├── product_details.py
+├── products.py
+├── recommendation.py
+├── shopper.py
+├── smart_recommendation.py
+├── tools.py
+├── tests
 └── README.md
