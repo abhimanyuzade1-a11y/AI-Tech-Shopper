@@ -9,7 +9,14 @@ An agentic AI-powered technology shopping assistant that helps customers discove
 AI Personal Tech Shopper is an intelligent shopping assistant designed to simplify the technology buying process.
 
 The system understands customer requirements, identifies customer intent, searches the product catalog, evaluates products, recommends suitable products, supports product comparison and price negotiation, manages the shopping cart, and provides a checkout experience.
+## 🚀 Live Demo
+---
 
+🌐 **Live Website:** https://ai-tech-shopper.streamlit.app/
+
+💻 **GitHub Repository:** https://github.com/abhimanyuzade1-a11y/AI-Tech-Shopper
+
+The AI Personal Tech Shopper is publicly deployed and can be tested directly through the live website.
 ---
 
 ## 🎯 Project Objective
@@ -224,3 +231,61 @@ AI-Tech-Shopper/
 │
 ├── .gitignore
 └── README.md
+---
+```
+---
+## 💻 How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/abhimanyuzade1-a11y/AI-Tech-Shopper.git
+cd AI-Tech-Shopper
+---
+
+```
+---
+## 📊 Project Status
+
+🟢 **Live and Deployed**
+
+The AI Personal Tech Shopper is currently working locally and publicly deployed using Streamlit Community Cloud.
+
+### Current Capabilities
+
+- AI-powered product recommendations
+- Customer requirement understanding
+- Product search
+- Product comparison
+- Price negotiation
+- Discount calculation
+- Shopping cart management
+- Checkout flow
+- Order confirmation
+- Shopping analytics
+---
+## 🏗️ System Architecture
+
+The AI Personal Tech Shopper follows an agentic shopping workflow:
+
+Customer Request
+↓
+Intent Detection
+↓
+Requirement Understanding
+↓
+Product Search
+↓
+Product Evaluation
+↓
+AI Recommendation
+↓
+Comparison / Negotiation
+↓
+Shopping Cart
+↓
+Checkout
+↓
+Order Confirmation
+↓
+Analytics
