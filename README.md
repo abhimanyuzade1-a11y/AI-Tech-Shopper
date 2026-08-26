@@ -264,10 +264,11 @@ The AI Personal Tech Shopper is currently working locally and publicly deployed 
 - Order confirmation
 - Shopping analytics
 ---
-```
+
 ## 🏗️ System Architecture
 
 The AI Personal Tech Shopper follows an agentic shopping workflow:
+```
 
 Customer Request
 ↓
